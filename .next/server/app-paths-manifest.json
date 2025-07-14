@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/consumer-dashboard/page": "app/consumer-dashboard/page.js",
+  "/drivers/page": "app/drivers/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/fleet-dashboard/page": "app/fleet-dashboard/page.js",
+  "/fuel-cards/page": "app/fuel-cards/page.js",
+  "/page": "app/page.js",
+  "/reports/page": "app/reports/page.js",
+  "/rewards/page": "app/rewards/page.js",
+  "/routing/page": "app/routing/page.js",
+  "/settings/page": "app/settings/page.js",
+  "/vehicles/page": "app/vehicles/page.js"
+}
