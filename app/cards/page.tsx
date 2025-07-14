@@ -1,41 +1,46 @@
-const DriversPage = () => {
+const CardsPage = () => {
   return (
     <div>
-      <h1 className="text-2xl font-bold mb-4">Manage Drivers</h1>
+      <h1 className="text-2xl font-bold mb-4">Manage Cards</h1>
       <div className="bg-white p-4 rounded-lg">
         <table className="w-full">
           <thead>
             <tr className="text-left text-gray-500">
-              <th className="p-2">Name</th>
-              <th className="p-2">ID</th>
-              <th className="p-2">Phone</th>
-              <th className="p-2">Vehicle Assigned</th>
-              <th className="p-2">Efficiency Score</th>
+              <th className="p-2">Card Number</th>
+              <th className="p-2">Driver</th>
+              <th className="p-2">Vehicle</th>
+              <th className="p-2">Status</th>
               <th className="p-2">Actions</th>
             </tr>
           </thead>
           <tbody>
             <tr className="border-t">
+              <td className="p-2">**** **** **** 1234</td>
               <td className="p-2">Benjamin Johannsen</td>
-              <td className="p-2">12345</td>
-              <td className="p-2">0712345678</td>
               <td className="p-2">KCD 123A</td>
-              <td className="p-2">A</td>
+              <td className="p-2">
+                <span className="bg-green-200 text-green-800 py-1 px-2 rounded-full text-xs">
+                  ACTIVE
+                </span>
+              </td>
               <td className="p-2">
                 <button className="text-blue-500 hover:underline">
-                  View
+                  Edit
                 </button>
               </td>
             </tr>
             <tr className="border-t">
+              <td className="p-2">**** **** **** 5678</td>
               <td className="p-2">Elizabeth Williamson</td>
-              <td className="p-2">54321</td>
-              <td className="p-2">0787654321</td>
               <td className="p-2">KDE 456B</td>
-              <td className="p-2">B</td>
+              <td className="p-2">
+                <span className="bg-green-200 text-green-800 py-1 px-2 rounded-full text-xs">
+                  ACTIVE
+                </span>
+              </td>
               <td className="p-2">
                 <button className="text-blue-500 hover:underline">
-                  View
+                  Edit
                 </button>
               </td>
             </tr>
@@ -46,4 +51,4 @@ const DriversPage = () => {
   );
 };
 
-export default DriversPage;
+export default CardsPage;
